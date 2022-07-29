@@ -23,6 +23,7 @@ requirements:
     - typer
     - requests
     - emsdk
+    - yaml
 
 test:
   imports:
