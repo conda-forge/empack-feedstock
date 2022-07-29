@@ -23,7 +23,7 @@ requirements:
     - typer
     - requests
     - emsdk
-    - yaml
+    - pyyaml
 
 test:
   imports:
