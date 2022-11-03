@@ -1,5 +1,5 @@
 {% set name = "empack" %}
-{% set version = "1.3.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 569356715bfe4d17adeb2e82fbc1da2ac2272c0085488dceee586d0e95fa8893
+  sha256: 75ac373bea30c88032285669eeb2cc49a1d65ef1ad6cf38f3b4af0114ee8af43
 
 build:
   noarch: python
