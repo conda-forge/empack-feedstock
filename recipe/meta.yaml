@@ -1,13 +1,13 @@
 {% set name = "empack" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75ac373bea30c88032285669eeb2cc49a1d65ef1ad6cf38f3b4af0114ee8af43
+  url: https://github.com/emscripten-forge/empack/archive/{{ version }}.tar.gz
+  sha256: d9a248a6503ce6a79ed60309b6b988b6a9a8bfdc7dad41b45b1f62ab98a164f3
 
 build:
   noarch: python
