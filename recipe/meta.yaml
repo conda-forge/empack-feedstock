@@ -6,13 +6,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/emscripten-forge/empack/archive/{{ version }}.tar.gz
-  sha256: d9a248a6503ce6a79ed60309b6b988b6a9a8bfdc7dad41b45b1f62ab98a164f3
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: cabbd23f995446d468fa49456d3097d5b02e1a3a1558b23bb65f723d2f561cf5 
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
