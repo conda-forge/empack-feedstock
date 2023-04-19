@@ -30,7 +30,6 @@ requirements:
 test:
   imports:
     - empack
-    - empack.file_packager
   commands:
     - empack --help
 
