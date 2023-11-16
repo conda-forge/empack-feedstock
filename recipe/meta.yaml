@@ -1,5 +1,5 @@
 {% set name = "empack" %}
-{% set version = "3.1.4" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 93eedcdd90c4d16f2846134eb9cf1b653be97ca7ad1e7fb30338c66141eb676a
+  sha256: 5a422d480c3ea81839e6a733851e5079b9c762a5fea2ef5be082d5b9ffba9ac8
 
 build:
   noarch: python
@@ -25,7 +25,6 @@ requirements:
     - requests
     - appdirs
     - pyyaml
-    - pydantic >=2,<3
     - networkx
 
 test:
