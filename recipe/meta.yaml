@@ -23,7 +23,7 @@ requirements:
     - python >={{ python_min }}
     - typer
     - requests
-    - appdirs
+    - platformdirs
     - pyyaml
     - networkx
 
