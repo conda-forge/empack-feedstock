@@ -26,6 +26,7 @@ requirements:
     - platformdirs
     - pyyaml
     - networkx
+    - click <8.2
 
 test:
   requires:
