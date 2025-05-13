@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/b4/07/d781d4084333b14311d35321a8706fa4a2b32f652b19f24d72676606342f/empack-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 4766ca1811dee5c3b8def2a61ef906036bb1bf59868c1d00765647d8d8ce5628
 
 build:
